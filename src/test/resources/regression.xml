@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke Tests">
+
+    <test name="GetterSetterTests">
+        <classes>
+            <class name="GetterSetterTests.PositiveTests"/>
+            <class name="GetterSetterTests.NegativeTests"/>
+        </classes>
+    </test>
+    <test  name="ManTests">
+        <classes>
+            <class name="ManTests.PositiveTests"/>
+            <class name="ManTests.NegativeTests"/>
+        </classes>
+    </test>
+    <test  name="WomanTests">
+        <classes>
+            <class name="WomanTests.PositiveTests"/>
+            <class name="WomanTests.NegativeTests"/>
+        </classes>
+    </test>
+</suite>
